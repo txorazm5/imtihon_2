@@ -1,0 +1,52 @@
+.implement {
+    padding-top: 150px;
+}
+
+.implement__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.implement__title_block {
+    max-width: 445px;
+}
+
+.implement__title {
+    color: #36536B;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    /* 116.667% */
+    letter-spacing: -0.369px;
+}
+
+.implement__text {
+    color: #6C8294;
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    /* 186.667% */
+}
+
+@media screen and (max-width:1140px) {
+    .implement {
+        padding-top: 100px;
+    }
+
+    .implement__container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .implement__title_block {
+        max-width: 573px;
+    }
+    .implement__title{
+        padding-top: 61px;
+    }
+    .implement__text{
+        margin-top: 24px;
+    }
+}
